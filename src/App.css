@@ -12,3 +12,13 @@
 .ant-menu-horizontal {
   border-bottom: 0;
 }
+
+.li-condensed {
+  padding: 0 5px;
+}
+
+@media(max-width: 767px){
+  .barsMenu{
+    display: inline-block;
+  }
+}
