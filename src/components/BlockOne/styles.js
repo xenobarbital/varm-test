@@ -26,7 +26,7 @@ export const HeaderCont = styled.div`
   @media (min-width: 1600px) {
     width: 50%;
   }
-`
+`;
 
 export const Header = styled.h1`
   font-size: 30px;
