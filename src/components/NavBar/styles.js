@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { Button, Drawer } from "antd";
 
 export const NavStyled = styled.nav`
   padding: 20px;
+  margin-bottom: 30px;
   height: 35px;
   @media (min-width: 768px) {
     padding: 20px 20px;
@@ -27,7 +27,10 @@ export const LogoWrapper = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 100px;
+  width: 80px;
+  @media (min-width: 768px) {
+    width: 100px;
+  }
 `;
 
 export const MenuCont = styled.div`
@@ -61,7 +64,7 @@ export const MenuRight = styled.div`
 export const BurgerCont = styled.div`
   float: right;
   height: 47px;
-  margin-right: -50px;
+  margin-right: -80px;
   display: flex;
   justify-content: center;
   align-items: center;

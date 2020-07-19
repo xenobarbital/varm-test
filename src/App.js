@@ -2,12 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { NavBar } from './components';
+import { NavBar, BlockOne } from './components';
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <div>
+        <NavBar />
+      </div>
+      <BlockOne />
     </div>
   );
 }
