@@ -1,10 +1,7 @@
 import React from 'react';
-import { Typography } from "antd";
 import * as S from './styles';
 import mailbot from '../../assets/img/mailbot.png';
 import { data } from './data';
-
-const { Text } = Typography;
 
 const UiTile = ({ icon, title, text }) => {
   return (
