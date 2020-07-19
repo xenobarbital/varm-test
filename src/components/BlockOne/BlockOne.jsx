@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Typography } from "antd";
 import * as S from './styles';
 
-const { Text, Link } = Typography;
+const { Text } = Typography;
 
 export const BlockOne = () => {
   return (

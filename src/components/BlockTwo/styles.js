@@ -53,3 +53,38 @@ export const ImageCont = styled.div`
 export const MailBot = styled.img`
   max-width: 90%;
 `;
+
+export const BottomSection = styled.div`
+  display: flex;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media (min-width: 768px) {
+    padding: 0 80px 20px 100px;
+  }
+`;
+
+export const TileWrapper = styled.div`
+  flex-grow: 1;
+  padding: 20px;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    padding: 20px 40px 20px 0 ;
+  }
+`;
+
+export const TileIcon = styled.img`
+  margin-bottom: 20px;
+`;
+
+export const TileTitle = styled.h3`
+  font-weight: 600;
+  font-size: 20px;
+`;
+
+export const TileText = styled.p`
+  color: #060A26;
+  font-size: 18px;
+`;
